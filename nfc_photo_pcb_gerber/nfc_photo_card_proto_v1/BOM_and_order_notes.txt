@@ -1,0 +1,21 @@
+Design: NFC ENIG photo card prototype v1
+
+U1: NT3H2111W0FTTJ, NXP NTAG I2C plus 1K, TSSOP-8
+R1: 330 ohm, 0603, LED current limit
+D1: 0603 low-current yellow/amber LED, Vf <= 2.0 V preferred
+C1: 220 nF, 0603, X7R, VOUT energy-harvesting reservoir
+Optional: keep 0 ohm / 4.7 pF / 10 pF 0603 parts available for antenna tuning rework if read range is poor.
+
+Order settings:
+- 2-layer PCB
+- Black soldermask
+- ENIG / immersion gold
+- 1.6 mm board thickness recommended for SMT ordering
+- 1 oz copper
+
+Notes:
+- This is a prototype antenna. Phone read range depends strongly on copper artwork, phone model, board thickness, and assembled component parasitics.
+- The LED uses harvested NFC energy, so it lights only when the phone is close and may reduce NFC read range.
+- Program the URL as an NDEF URI after assembly unless your assembler can pre-program U1.
+- U1 pin map used here: 1 LA, 2 VSS, 3 SCL, 4 FD, 5 SDA, 6 VCC, 7 VOUT, 8 LB.
+- Back silkscreen image: 背面小图 签名.png, centered about 58.6 x 58.6 mm.

@@ -1,0 +1,19 @@
+﻿URL:
+https://c6.y.qq.com/base/fcgi-bin/u?__=kIR6N1TP7wer
+
+NDEF URI TLV bytes, write from NTAG user memory page 04.
+URI prefix 04 means https://
+
+Page 04: 03 30 D1 01
+Page 05: 2C 55 04 63
+Page 06: 36 2E 79 2E
+Page 07: 71 71 2E 63
+Page 08: 6F 6D 2F 62
+Page 09: 61 73 65 2F
+Page 10: 66 63 67 69
+Page 11: 2D 62 69 6E
+Page 12: 2F 75 3F 5F
+Page 13: 5F 3D 6B 49
+Page 14: 52 36 4E 31
+Page 15: 54 50 37 77
+Page 16: 65 72 FE 00
